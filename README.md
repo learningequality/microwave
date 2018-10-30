@@ -6,6 +6,21 @@ Chef authors can use this service to convert file formats not currently supporte
 by Kolibri (doc/docx/ppt) to PDF documents, which are supported.
 
 
+TODO
+----
+
+1.
+Check why table of contents is missing from
+Final - V2/English/Kolibri Training Pack /1. Training Manual/Facilitation Manual for Kolibri training - Updated July 2018.docx
+update unoconv if needed
+
+
+2.
+Check why pptx --> pdf doesn't work for 
+Final - V2/Spanish/Presentaciones del entrenamiento/2. Presentación de Kolibri - paso a paso.pptx
+Increase maximum file size allowed if needed
+
+
 
 
 API
@@ -98,6 +113,8 @@ Check that unoconv service is up by visiting http://35.185.105.222:8989/healthz
 Links
 -----
 https://www.one-tab.com/page/m8nFwUEMSAi-K6B55ElhJQ
+
+
 
 
 
