@@ -2,7 +2,7 @@
 FROM telemark/docker-node-unoconv:10.14.0
 
 # Install more fonts
-RUN apt-get update && apt-get -t jessie-backports -y install \
+RUN apt-get update || true && apt-get -y install \
     fonts-indic \
     fonts-hosny-amiri \
     fonts-crosextra-caladea \
